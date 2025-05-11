@@ -12,7 +12,7 @@ const config = {
   baseUrl: "/", // Base URL, já ajustado para a raiz do repositório
 
   organizationName: "diegooilv", // Seu usuário no GitHub
-  projectName: "express-api-docs", // Nome do repositório
+  projectName: "docs.diegooilv.xyz", // Nome do repositório
 
   onBrokenLinks: "throw", // Como lidar com links quebrados
   onBrokenMarkdownLinks: "warn", // Como lidar com links quebrados em markdown
@@ -30,12 +30,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"), // Caminho para o arquivo de sidebars
           editUrl:
-            "https://github.com/diegooilv/express-api-docs/tree/main/docs/", // URL para edição da documentação
+            "https://github.com/diegooilv/docs.diegooilv.xyz/tree/main/", // URL para edição da documentação
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            "https://github.com/diegooilv/express-api-docs/tree/main/blog/", // URL para editar posts do blog
+            "https://github.com/diegooilv/docs.diegooilv.xyz/tree/main/", // URL para editar posts do blog
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"), // Caminho para os estilos personalizados
@@ -57,7 +57,7 @@ const config = {
         },
         { to: "/blog", label: "Blog", position: "left" }, // Link para o blog
         {
-          href: "https://github.com/diegooilv/express-api-docs", // Link para o GitHub
+          href: "https://github.com/diegooilv/docs.diegooilv.xyz", // Link para o GitHub
           label: "GitHub",
           position: "right",
         },
