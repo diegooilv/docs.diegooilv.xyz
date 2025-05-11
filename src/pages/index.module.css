@@ -8,6 +8,8 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-color: var(--ifm-hero-background-color, #282c34); /* opcional: cor de fundo para destaque */
+  color: var(--ifm-font-color-base-inverse, #fff); /* texto branco */
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +22,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap; /* garante que em telas pequenas os botões quebrem linha */
+  gap: 1rem; /* espaçamento entre botões */
 }
