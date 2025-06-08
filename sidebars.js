@@ -10,11 +10,23 @@ const sidebars = {
         'app/signup',
         'app/login',
         'app/dados-usuario',
-        'app/novas-funcionalidades',  // Para futuras funcionalidades
+        'app/novas-funcionalidades',  
+        'app/seguranca',
+        'app/observacoes'
       ],
     },
-    'seguranca',
-    'observacoes',
+    {
+      type: 'category',
+      label: '📦 /dex',
+      items: [
+        'dex/visao-geral',
+        'dex/pokemon-by-id',
+        'dex/pokemon-by-name',
+        'dex/type-by-name'
+
+      ]
+    },
+   
   ],
 };
 

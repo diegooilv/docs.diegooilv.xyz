@@ -4,34 +4,36 @@ sidebar_position: 1
 
 # 🛠️ Introdução
 
-Bem-vindo à documentação da **API de aprendizado com Express**!
+Bem-vindo à documentação do projeto **Pokédex com Express**!
 
-Este projeto foi desenvolvido com o intuito de aprimorar o entendimento sobre como construir e gerenciar APIs utilizando **Express**. A API abrange funcionalidades básicas de autenticação de usuários, gerenciamento de dados protegidos e segurança, explorando conceitos importantes como **chave de API**, **tokens JWT** e **controle de acesso**.
+Este projeto foi desenvolvido como uma forma prática de **aprender a construir APIs RESTful** utilizando o framework **Express.js**. Ao invés de focar apenas em autenticação ou banco de dados, esta API busca representar dados do universo Pokémon, permitindo buscas por ID, nome e tipo.
 
-## Objetivo do Projeto
+## 🎯 Objetivo do Projeto
 
-Como estudante do **IFRS**, o principal objetivo deste projeto é aprender a estruturar uma API eficiente, com rotas que incluem:
+Como estudante do **IFRS**, o principal objetivo deste projeto é **aprofundar os conhecimentos em Node.js**, organizando rotas, middlewares e controladores de forma escalável e reutilizável. A Pokédex funciona como um laboratório para entender como funciona:
 
-- **Autenticação** de usuários através de **login** e **signup**.
-- **Proteção de rotas** usando **JWT**.
-- **Manipulação de dados** de forma segura e escalável.
+- A criação de rotas dinâmicas com parâmetros (`/pokemon/id/:id`, por exemplo).
+- A validação de dados por meio de **middlewares personalizados**.
+- A estruturação de respostas no padrão JSON.
+- A separação de responsabilidades entre controladores, rotas e dados.
 
-## Tecnologias Utilizadas
+## 🧰 Tecnologias Utilizadas
 
-- **Node.js** com **Express**: Framework para construção da API.
-- **JWT** (JSON Web Token): Para autenticação de usuários.
-- **Middleware**: Para validação de dados e controle de acesso.
-- **Banco de Dados**: Utilizado para armazenar informações de usuários (em um banco simulado ou real).
+- **Node.js** com **Express** — estrutura principal da aplicação.
+- **JavaScript (ESM)** — sintaxe moderna, com `import/export`.
+- **Middlewares customizados** — para validação de parâmetros.
+- **Arquitetura MVC simplificada** — separando controllers, rotas e dados.
+- **JSON como base de dados** — simulação de um banco real com acesso rápido a dados Pokémon.
 
-## Como Usar a API
+## 📚 O que você pode fazer com esta Pokédex
 
-Siga os passos abaixo para interagir com a API:
+- **Buscar um Pokémon pelo ID**.
+- **Buscar um Pokémon pelo nome**.
+- **Consultar o tipo de um Pokémon e suas traduções** (inglês, japonês, chinês).
+- **Explorar a estrutura de uma API modular e reutilizável** para futuros projetos.
 
-1. **Criar um novo usuário** utilizando o endpoint **`/app/signup`**.
-2. **Autenticar o usuário** com o endpoint **`/app/login`** e obter um **token JWT**.
-3. **Acessar dados protegidos** utilizando o token JWT no cabeçalho da requisição.
-4. **Buscar e manipular dados** através das rotas protegidas, como **`/app/buscar`** e **`/app/dados-usuario`**.
+## 💡 Por que esse projeto é importante?
 
-Essa API serve como uma base para quem deseja entender os princípios de criação de APIs com Express, e serve também para fins educacionais no processo de aprendizado.
+Este projeto foi pensado como um **exercício prático de aprendizado**, ideal para quem está dando os primeiros passos com APIs, e quer entender na prática como lidar com rotas, parâmetros, validação e boas práticas com Express.
 
-Pronto para começar? Vamos explorar as rotas da API!
+---
