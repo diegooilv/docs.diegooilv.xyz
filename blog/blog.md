@@ -1,6 +1,6 @@
 ---
 title: "Bem-vindo ao Blog"
-author: DiegoOliveira  # Agora você usa a chave do autor
+author: DiegoOliveira 
 date: "2025-05-11"
 ---
 
